@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>あおき みく | Portfolio</title>
+  <meta name="description"
+    content="WEBデザイナー／グラフィックデザイナーとしての再就職を目指しております、あおきみくと申します。こちらは、Webデザインの実績や作品をまとめたポートフォリオサイトです。">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Jost:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+  <link href="css/main.css" rel="stylesheet">
+  <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo" href="#top">AOKI MIKU</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav>
+        <ul id="navMenu">
+          <li><a href="works.html">WORKS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap">
+      <!--<span class="hero-eyebrow reveal show">WEB DESIGNER PORTFOLIO</span>-->
+      <h1 class="hero-title reveal show">
+        <span id="animTitle" class="anim-title">あおきみくのポートフォリオ</span>
+        <span class="small-en">WEB DESIGN / GRAPHIC DESIGN</span>
+      </h1>
+      <p class="hero-desc reveal show">丁寧なヒアリングとやわらかいトーンを大切に、目的やターゲットを意識したWebデザインを制作します。<br>
+        長年のイラスト制作の経験をベースに、職業訓練での学びと、半年間の実務経験を活かして次のステップを目指し、就職活動をしています。</p>
+      <div class="hero-links reveal show">
+        <a href="#works" class="text-link">制作したもの →</a>
+        <a href="#contact" class="text-link">お問い合わせ →</a>
+      </div>
+    </div>
+
+    <div class="wrap hero-visual reveal">
+      <div class="ph">
+        <img src="img/main_v.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="wrap">
+      <span class="sec-label reveal show">WORKS</span>
+      <h2 class="sec-heading reveal show">制作したもの <!--<span class="jp">— 抜粋して掲載しています</span>--></h2>
+
+      <div class="works-row reveal">
+        <div class="ph">
+          <img src="img/kunkundo_samune.jpg" alt="">
+        </div>
+        <div>
+          <span class="works-cate">WEB DESIGN — TEAM</span>
+          <h3 class="works-title">薫々堂</h3>
+          <p class="works-desc">架空のお香屋さんのサイト。<br>
+            老舗の店舗を現代のライフスタイルに合わせてリニューアルする想定で制作しました。</p>
+          <p class="works-tool">Figma　/　Photoshop　/　direction</p>
+          <a href="works-kunkundo.html" class="text-link">詳しくみる →</a>
+        </div>
+      </div>
+
+      <div class="works-row reveal">
+        <div class="ph">
+          <img src="img/milieu_samune.jpg" alt="">
+        </div>
+        <div>
+          <span class="works-cate">WEB DESIGN</span>
+          <h3 class="works-title">ミリュアカデミー</h3>
+          <p class="works-desc">架空の職業訓練校のWebサイト。<br>
+            はじめの一歩を踏み出しやすい、明るく親しみやすい雰囲気を伝えるデザインを目指しました。</p>
+          <p class="works-tool">Illustrator　/　Photoshop　/　coding</p>
+          <a href="works-milieu.html" class="text-link">詳しくみる →</a>
+        </div>
+      </div>
+
+      <div class="works-row reveal">
+        <div class="ph">
+          <img src="img/yoicha_samune.jpg" alt="">
+        </div>
+        <div>
+          <span class="works-cate">GRAPHIC DESIGN</span>
+          <h3 class="works-title">カフェ　店舗フライヤー
+          </h3>
+          <p class="works-desc">架空のひっそり夜カフェのフライヤー。<br>
+            落ち着いた配色と上品な文字組みを採用しました。</p>
+          <p class="works-tool">Illustrator</p>
+          <a href="works-yoicha.html" class="text-link">詳しくみる →</a>
+        </div>
+      </div>
+
+      <div class="works-row reveal">
+        <div class="ph">
+          <img src="img/esthetic_samune.jpg" alt="">
+        </div>
+        <div>
+          <span class="works-cate">GRAPHIC DESIGN</span>
+          <h3 class="works-title">エステサロン用クーポン</h3>
+          <p class="works-desc">エステサロン用の期間限定メニューのクーポン画像を作成しました。<br>
+            <small>クライアントワーク</small>
+          </p>
+          <p class="works-tool">Illustrator</p>
+          <a href="works-esthetic.html" class="text-link">詳しくみる →</a>
+        </div>
+      </div>
+
+      <div class="works-all reveal show">
+        <a href="works.html" class="text-link">制作したもの一覧 →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <span class="sec-label reveal show">ABOUT</span>
+      <h2 class="sec-heading reveal show">自己紹介</h2>
+
+      <div class="about-grid">
+        <div class="ph reveal">
+          <img src="img/about-photo.jpg" alt="">
+        </div>
+        <div>
+          <p class="about-name reveal show">あおき みく<span class="kanji">青木 未来</span></p>
+          <div class="about-text reveal show">
+            <p>
+              イラスト制作のクライアントワークを通して、相手の希望やこだわりを一つひとつ汲み取り、形にしていくことに楽しさを感じる中で、次第に「もっと幅広い形で、様々なことを届けられるものを作りたい」と考えるようになり、Webデザインに興味を持ちました。<br>
+              見る人・使う人の気持ちに寄り添い、伝えたいことがきちんと伝わるWebサイト作りを目指し、新しい知識や技術に目を向け、より良いものを形にできるよう、少しずつ努力を重ねています。</p>
+          </div>
+          <dl class="def-list reveal show">
+            <div class="def-row">
+              <dt>経歴</dt>
+              <dd>■ 職業訓練校にてWeb・グラフィックデザインを学習<br>
+                ■ 広告代理店にてWeb制作（PHP/HTML/CSS/JavaScript）、グラフィック制作、SEOマーケティングなどを経験<br>
+                <div class="expand-wrap" id="careerExpand">
+                  <ul class="expand-inner">
+                    <li class="expand-item">
+                      <div class="item-title">Webサイトのフルリニューアル</div>
+                      <p class="item-desc">クライアント提供のデザインカンプをもとに、
+                        コーディングを担当。Excelで制作されたグラフなどの素材も、サイトのデザインに合わせてIllustratorにて再制作しました。</p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">大手医療系企業サイト</div>
+                      <p class="item-desc">お知らせ更新、新規ページのデザイン・コーディング、全ページに架かるデザインの変更などを担当。</p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">企業採用サイトの運用・改善提案</div>
+                      <p class="item-desc">ページのリニューアル、文章校正、素材写真の補正を担当。<br>
+                        Google AnalyticsやSEO調査をもとにサイト改善案を立案し、提案資料の作成からプレゼンテーションまで行いました。</p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">美容サロン</div>
+                      <p class="item-desc">
+                        webサイトの保守運用と、総合サロン予約サイト掲載用クーポン画像、期間限定メニューの画像・フライヤー、LINEリッチメニューのデザインなどを制作。
+                      </p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">ナイトレジャー系店舗</div>
+                      <p class="item-desc">
+                        Webサイトの保守運用や、人物写真のフォトレタッチ（トーン補正、プライバシー保護の加工）や、キャスト紹介バナー等のプロモーション素材の制作・差し替え作業を行いました。</p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">医療系Webシステム</div>
+                      <p class="item-desc">phpMyAdminを使用し、Webシステムに登録された顧客情報の修正を担当。</p>
+                    </li>
+
+                    <li class="expand-item">
+                      <div class="item-title">ショッピングモール向けイベントの企画・提案</div>
+                      <p class="item-desc">インフルエンサーを起用した集客イベントについて、ターゲット・集客効果・購買促進施策を検討し、提案資料の作成を担当。</p>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="more-btn" type="button" onclick="toggleExpand(this,'careerExpand')">
+                  <span class="more-btn-label">詳しくみる</span>
+                  <span class="more-btn-icon" aria-hidden="true"></span>
+                </button>
+              </dd>
+            </div>
+
+            <div class="def-row">
+              <dt>個人の活動</dt>
+              <dd>■ イラスト制作のご依頼を10件以上受注<br>
+                （VTuber / TRPGスチル / WEB小説表紙 等）<br>
+                ■ イラストACにてイラスト素材を配布中
+              </dd>
+            </div>
+
+            <div class="def-row">
+              <dt>好きないろいろ</dt>
+              <dd>アニメ・漫画・ゲーム / 本を読む / コーヒー / ちょっとしたDIY / 猫とあそぶ</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="wrap">
+      <span class="sec-label reveal show">SKILL</span>
+      <h2 class="sec-heading reveal show">使用スキル・ツール</h2>
+
+      <table class="skill-table reveal show">
+        <tbody>
+          <tr>
+            <td class="name">Illustrator　CS6 / CC</td>
+            <td class="dur">1年</td>
+            <td class="desc">
+              パスでのイラスト制作やアピアランスを使用した文字の装飾、CCで流行の3D機能の活用が可能です。<br>
+              ショートカットキーを使用して効率的に作業が行えます。
+              <div class="skill-bar">
+                <i style="width:85%"></i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">Photoshop　CS6 / CC</td>
+            <td class="dur">1年</td>
+            <td class="desc">
+              レイヤー効果を適切に使用し、素材の雰囲気を用途に合わせて調整することが可能です。<br>
+              レイヤースタイルやフィルター機能を使用し、オリジナルの素材の制作も可能です。<br>
+              GIFアニメーションバナーの制作経験もあります。
+              <div class="skill-bar">
+                <i style="width:70%"></i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">HTML / CSS</td>
+            <td class="dur">1年</td>
+            <td class="desc">
+              デザイナーが制作したカンプの意図を読み取り、ピクセルパーフェクトに近いレベルでの記述を心がけています。<br>
+              ホバーエフェクトやトランジション、キーフレームアニメーションを実装可能です。
+              <div class="skill-bar">
+                <i style="width:70%"></i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">JavaScript / jQuery</td>
+            <td class="dur">3ヶ月</td>
+            <td class="desc">
+              AIに協力してもらい、動きを付けることが出来ます。<br>
+              自分で数値を変更しタイミングの調整が可能で、コピー&amp;ペーストするだけでなく、その都度内容を理解をするように心がけながら実装しています。
+              <div class="skill-bar">
+                <i style="width:35%"></i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">CLIP STUDIO PAINT</td>
+            <td class="dur">10年</td>
+            <td class="desc">
+              長年の独学経験により、豊富なブラシ・素材・レイヤー機能を駆使した表現が可能です。<br>
+              3D素材の適切な活用により、複雑な構図や背景、小物なども効果的に制作し、作業時間の短縮とクオリティの向上を両立できます。
+              <div class="skill-bar">
+                <i style="width:90%"></i>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">AI</td>
+            <td class="dur">1年半</td>
+            <td class="desc">
+              ChatGPT / Gemini / Claude を効果的に活用します。<br>
+              情報漏洩を防ぐため、社外秘データや一次情報の入力を行わないセキュリティ対策を徹底しております。<br>
+              また、業務においては著作権やコンプライアンスの観点から画像生成AIは使用せず、イラスト等の制作はすべて手作業で行っています。<br>
+              AIはあくまで作業効率化のサポートとして、限定的に使用しています。
+            </td>
+          </tr>
+
+          <tr>
+            <td class="name">その他</td>
+            <td class="dur"></td>
+            <td class="desc">
+              Figma / Premiere / Blender / Microsoft 365 / Google Workspace<br>
+              基本操作が可能です。
+              <!--<div class="skill-bar">
+              <i style="width: 30%;"></i>
+            </div>-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <span class="sec-label reveal show">CONTACT</span>
+      <h2 class="sec-heading reveal show">お問い合わせ</h2>
+      <p class="reveal show">ご覧いただきありがとうございます。<br>
+        ご質問など、お気軽にご連絡ください。</p>
+      <a href="mailto:aoki.miku16@gmail.com" class="contact-email reveal show">aoki.miku16@gmail.com</a>
+    </div>
+    </div>
+  </section>
+
+  <footer>© Aoki Miku. All rights reserved.</footer>
+
+  <a href="#" class="pagetop" aria-label="ページトップへ戻る">↑</a>
+
+  <div class="stalker" id="js-stalker"></div>
+
+</body>
+
+</html>

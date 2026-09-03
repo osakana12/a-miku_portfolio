@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>あおき みく | Portfolio</title>
+<meta name="description" content="WEBデザイナー／グラフィックデザイナーとしての再就職を目指しております、あおきみくと申します。こちらは、Webデザインの実績や作品をまとめたポートフォリオサイトです。">
+<link rel="icon" href="favicon.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/works.css">
+<script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+<header>
+<div class="nav-inner">
+  <a class="logo" href="index.html#top">AOKI MIKU</a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="メニュー" aria-expanded="false" aria-controls="navMenu">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
+
+  <nav>
+    <ul id="navMenu">
+      <li><a href="works.html">WORKS</a></li>
+      <li><a href="index.html#about">ABOUT</a></li>
+      <li><a href="index.html#skill">SKILL</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+</header>
+
+
+<section class="works-top" id="top">
+  <div class="wrap">
+    <span class="sec-label reveal show">WORKS</span>
+    <h1 class="detail-title reveal show">制作したもの</h1>
+    <p class="works-lead reveal show">
+      随時追加を予定しております。
+    </p>
+
+    <div class="filter-row reveal show" id="filterRow">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">WEB</button>
+      <button class="filter-btn" data-filter="graphic">GRAPHIC</button>
+      <button class="filter-btn" data-filter="others">OTHERS</button>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <div class="card-grid" id="cardGrid">
+
+    <a class="works-card" data-cat="web" href="works-kunkundo.html">
+      <div class="thumb"><img src="img/kunkundo_samune.jpg" alt="薫々堂"></div>
+      <span class="cat">WEB DESIGN — TEAM</span>
+      <p class="title">薫々堂</p>
+      <p class="desc">架空の老舗お香屋さんのサイト。<br>
+        トップページのデザイン・バナー制作と、各ページのディレクションを担当。</p>
+      <p class="tools">Figma　/　Photoshop　/　2週間</p>
+    </a>
+
+    <a class="works-card" data-cat="web" href="works-hetki.html">
+      <div class="thumb"><img src="img/hetki_samune.jpg" alt="Hetki"></div>
+      <span class="cat">WEB DESIGN</span>
+      <p class="title">Hetki</p>
+      <p class="desc">架空の北欧家具屋さんのサイト。<br>
+        チェキ写真風の商品配置で、懐かしく親しみやすい雰囲気に。</p>
+      <p class="tools">Illustrator　/　Photoshop　/　VSCode　/　1週間</p>
+    </a>
+
+    <a class="works-card" data-cat="web" href="works-milieu.html">
+      <div class="thumb"><img src="img/milieu_samune.jpg" alt="ミリュアカデミー"></div>
+      <span class="cat">WEB DESIGN</span>
+      <p class="title">ミリュアカデミー</p>
+      <p class="desc">架空の職業訓練校のサイト。<br>
+        はじめの一歩を踏み出しやすい、明るく親しみやすい雰囲気を伝えるデザインを目指しました。</p>
+      <p class="tools">Illustrator　/　Photoshop　/　VSCode　/　1週間</p>
+    </a>
+
+    <a class="works-card" data-cat="web" href="works-komugi.html">
+      <div class="thumb"><img src="img/komugi_samune.jpg" alt="こむぎ日和"></div>
+      <span class="cat">WEB DESIGN</span>
+      <p class="title">こむぎ日和</p>
+      <p class="desc">架空のパン屋さんのサイト。<br>
+        紙のテクスチャと丸みのあるデザインで、暖かい雰囲気に。</p>
+      <p class="tools">Illustrator　/　Photoshop　/　VSCode　/　1週間</p>
+    </a>
+
+    <a class="works-card" data-cat="graphic" href="works-esthetic.html">
+      <div class="thumb"><img src="img/esthetic_samune.jpg" alt="エステサロン"></div>
+      <span class="cat">GRAPHIC</span>
+      <p class="title">エステサロン用クーポン</p>
+      <p class="desc">エステサロン用の期間限定メニューのクーポン画像を作成しました。</p>
+      <p class="tools">Illustrator　/　各 1日</p>
+    </a>
+
+    <a class="works-card" data-cat="graphic" href="works-yoicha.html">
+      <div class="thumb"><img src="img/yoicha_samune.jpg" alt="店舗フライヤー"></div>
+      <span class="cat">GRAPHIC</span>
+      <p class="title">店舗フライヤー</p>
+      <p class="desc">架空の夜カフェのフライヤー。<br>
+      落ち着いた配色と上品な文字組みを採用しました。</p>
+      <p class="tools">Illustrator　/　3日</p>
+    </a>
+
+    <a class="works-card" data-cat="graphic" href="works-aikotoba.html">
+      <div class="thumb"><img src="img/aikotoba_samune.jpg" alt="楽曲配信ジャケットイラスト"></div>
+      <span class="cat">GRAPHIC</span>
+      <p class="title">楽曲配信用ジャケットイラスト</p>
+      <p class="desc">歌詞を読み解き、包み込むイメージで描いた楽曲のイラスト。</p>
+      <p class="tools">CLIP STUDIO PAINT　/　4日</p>
+    </a>
+
+    <a class="works-card" data-cat="others" href="works-illust.html">
+      <div class="thumb"><img src="img/illust_samune.jpg" alt=""></div>
+      <span class="cat">OTHERS</span>
+      <p class="title">イラストなどまとめ</p>
+      <p class="desc">複数の絵柄をある程度使い分けることが出来ます。</p>
+      <p class="tools">CLIP STUDIO PAINT　/　Illustrator　/　Photoshop</p>
+    </a>
+
+    <a class="works-card" data-cat="others" href="works-presentation.html">
+      <div class="thumb"><img src="img/presen/1.jpg" alt=""></div>
+      <span class="cat">OTHERS</span>
+      <p class="title">マーケティング提案事例</p>
+      <p class="desc">クライアント企業の採用サイトへの流入・応募数を増やす目的で、マーケティング調査・資料作成・プレゼンテーションを行いました。</p>
+      <p class="tools">Google Analytics / Power Point</p>
+    </a>
+
+    <a class="works-card" data-cat="others" href="">
+      <div class="thumb"><img src="img/prepare.jpg" alt=""></div>
+      <span class="cat">OTHERS</span>
+      <p class="title">3D素材まとめ</p>
+      <p class="desc">Blenderで制作した小物たちです。</p>
+      <p class="tools">Blender</p>
+    </a>
+
+  </div>
+
+  <div class="detail-back reveal show" style="margin-top:60px;">
+    <a href="index.html" class="text-link">← トップページへ戻る</a>
+  </div>
+
+</div>
+
+<section id="contact">
+  <div class="wrap">
+    <span class="sec-label reveal show">CONTACT</span>
+    <h2 class="sec-heading reveal show">お問い合わせ</h2>
+    <p class="reveal show">ご覧いただきありがとうございます。<br>
+    ご質問など、お気軽にご連絡ください。</p>
+    <a href="mailto:aoki.miku16@gmail.com" class="contact-email reveal show">aoki.miku16@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+<footer>© Aoki Miku. All rights reserved.</footer>
+
+<a href="#" class="pagetop" aria-label="ページトップへ戻る">↑</a>
+<div class="stalker" id="js-stalker"></div>
+
+</body>
+</html>
