@@ -267,6 +267,27 @@
   object-fit: unset;
 }
 
+.figma-container {
+  width: 100%;
+  max-width: 800px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.figma-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+@media (max-width:700px) {
+.figma-container {
+  max-width: 100%;
+  height: 700px;
+}
+}
+
 /* ----------DIRECTION比較 ---------- */
 .ba-block {
   margin-bottom: 90px;
@@ -373,7 +394,7 @@
 
 /* ------------------------------- */
 
-.detail-pn {
+/*.detail-pn {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -413,7 +434,7 @@
 
 .pn-card:hover .pn-title {
   color: var(--purple-deep);
-}
+}*/
 
 .detail-back {
   text-align: center;
